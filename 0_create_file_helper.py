@@ -20,4 +20,4 @@ def create_py_file(problem_title):
         file.write(script_content)
 
 
-create_py_file("Evaluate Reverse Polish Notation")
+create_py_file("Group Shifted Strings")
