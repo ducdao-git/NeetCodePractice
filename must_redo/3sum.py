@@ -24,6 +24,9 @@ class Solution:
         result = set()
         for i in range(len(nums)):
             n = nums[i]
+            if n > 0:
+                break  # bcz array is sorted, if 1st elem is positive then no triplet can be eq to 0.
+
             if i > 0 and n == nums[i - 1]:
                 continue
 
