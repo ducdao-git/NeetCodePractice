@@ -2,10 +2,12 @@ import os
 
 script_content = """\
 from typing import Optional\n\n\n
+# runtime O(?), space O(?)
 
-## Question URL: 
-# - 
-# -  
+
+# Question URL: 
+# Solution: ? -- runtime O(?), space O(?)
+#   
 sol_test = Solution()
 print(sol_test.FUNC_NAME())
 """
@@ -24,4 +26,4 @@ def create_py_file(problem_title):
         file.write(script_content)
 
 
-create_py_file("Daily Temperatures")
+create_py_file("Find Minimum in Rotated Sorted Array")
