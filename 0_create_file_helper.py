@@ -26,4 +26,4 @@ def create_py_file(problem_title):
         file.write(script_content)
 
 
-create_py_file("Find Minimum in Rotated Sorted Array")
+create_py_file("Last Stone Weight")
