@@ -26,4 +26,4 @@ def create_py_file(problem_title):
         file.write(script_content)
 
 
-create_py_file("K Closest Points to Origin")
+create_py_file("LRU Cache")
